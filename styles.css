@@ -1,0 +1,45 @@
+body {
+  font-family: Arial, sans-serif;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.carousel-item {
+  height: 300px; /* Set the height of the carousel */
+  background-size: cover;
+  background-position: center;
+}
+
+.carousel-caption {
+  bottom: 20%; /* Adjust caption positioning */
+}
+
+.input-group {
+  position: relative; /* Ensure child elements can be positioned absolutely */
+}
+
+.form-control {
+  padding-left: 40px; /* Add padding for the left icon */
+  padding-right: 40px; /* Add padding for the right icon */
+
+  border: 1px solid #ced4da; /* Optional: Define a border */
+}
+
+.input-group .bi {
+  color: black; /* Change icon color to black */
+  cursor: pointer; /* Indicate the icons are clickable */
+}
+
+.position-absolute {
+  top: 50%; /* Center icons vertically */
+  transform: translateY(-50%); /* Center icon */
+}
+
+.input-group .bi-mic {
+  left: 10px; /* Position for the microphone icon */
+}
+
+.input-group .bi-search {
+  right: 10px; /* Position for the search icon */
+}
